@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "Joseph Nuhu Kalba",
+    "location": "Zaria, Kaduna State, Nigeria",
+    "institution": "Ahmadu Bello University, Zaria",
+    "fields": ["Computer Engineering", "Artificial Intelligence Engineering"],
+    "previous_education": "Nigerian Defence Academy",
+    "email": "njkalba@engineering.abu.edu.ng",
+    "github": "https://github.com/nujoka1",
+    "image_url": null
+  },
+  "agricultural_experience": {
+    "role": "Commercial agricultural farmer",
+    "responsibilities": ["Operations", "Budgeting", "Planning", "Resource management"],
+    "dates": null,
+    "image_url": null
+  },
+  "skill_groups": [
+    {"category": "Embedded systems", "technologies": ["Raspberry Pi 4B", "NVIDIA Jetson Nano", "NVIDIA Jetson Orin Nano", "ESP32", "Arduino"]},
+    {"category": "PCB and product design", "technologies": ["Proteus", "KiCad", "SolidWorks", "PlatformIO"]},
+    {"category": "Computer vision and deep learning", "technologies": ["YOLOv8", "PyTorch", "TensorFlow", "MobileNet", "ECA modules"]},
+    {"category": "Linux administration", "technologies": ["Kali Linux", "Dual boot", "GRUB", "Partitioning"]},
+    {"category": "Mobile and web development", "technologies": ["Flutter", "React Native", "Flask", "Streamlit", "Firebase", "Supabase"]},
+    {"category": "Low-resource NLP", "technologies": ["Higi", "Hausa tokenization", "Translation"]},
+    {"category": "Cloud and DevOps", "technologies": ["AWS IAM", "EC2", "S3", "VPC"]}
+  ],
+  "project_categories": ["Edge AI", "Assistive systems", "Security research", "Low-resource NLP", "IoT"],
+  "projects": [
+    {"id": 1, "title": "AI-Driven Road Surface Health Monitoring System", "category": "Edge AI", "description": "Engineering prototype for road-surface observation using edge inference and a cockpit interface.", "technologies": ["YOLOv8", "PyQt5"], "image_url": null},
+    {"id": 2, "title": "Automated Medication Dispensing System", "category": "Assistive systems", "description": "Raspberry Pi-based prototype combining identification, pill recognition, load sensing and a mobile interface.", "technologies": ["Raspberry Pi 4B", "RFID", "QR", "Load cell", "Flutter"], "image_url": null},
+    {"id": 3, "title": "Edge-Deployed Autonomous Security Turret", "category": "Security research", "description": "High-level edge-security research prototype using local vision and storage components.", "technologies": ["Raspberry Pi", "MediaPipe BlazeFace", "dlib ResNet", "SQLite"], "image_url": null},
+    {"id": 4, "title": "HausaTaxBot", "category": "Low-resource NLP", "description": "Streamlit application for Personal Income Tax questions, translation and Hausa-language accessibility.", "technologies": ["Streamlit", "Hausa NLP"], "image_url": null},
+    {"id": 5, "title": "IoT Smart Energy Meters and Weather Station", "category": "IoT", "description": "Connected monitoring prototypes using embedded sensing and cellular or cloud communication.", "technologies": ["ESP32", "BMP280", "ThingSpeak", "GPRS"], "image_url": null}
+  ]
+}
