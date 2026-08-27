@@ -1,10 +1,10 @@
 :root {
-  --ink: #101411;
-  --paper: #f2f0e9;
-  --muted: #5e665f;
-  --line: #c9cdc5;
-  --accent: #d8ff3e;
-  --panel: #e8e7df;
+  --ink: #111412;
+  --paper: #f7f8f5;
+  --muted: #5a625d;
+  --line: #cdd2cd;
+  --accent: #94c83d;
+  --panel: #ecefeb;
   --max: 1180px;
 }
 
@@ -27,7 +27,7 @@ img { display: block; max-width: 100%; }
   padding: .7rem 1rem; background: var(--accent); transform: translateY(-160%);
 }
 .skip-link:focus { transform: translateY(0); }
-:focus-visible { outline: 3px solid #3255ff; outline-offset: 4px; }
+:focus-visible { outline: 3px solid #467500; outline-offset: 4px; }
 .site-header, main, .site-footer { width: min(calc(100% - 2rem), var(--max)); margin-inline: auto; }
 .site-header {
   display: grid; gap: .8rem;
