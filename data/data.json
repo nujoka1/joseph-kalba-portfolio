@@ -4,14 +4,17 @@
     "location": "Zaria, Kaduna State, Nigeria",
     "institution": "Ahmadu Bello University, Zaria",
     "fields": ["Computer Engineering", "Artificial Intelligence Engineering"],
+    "professional_title": "Full-Stack AI Engineer | Leveraging AI to Solve Business Problems | End-to-End Development & Cloud Deployment",
     "email": "njkalba@engineering.abu.edu.ng",
     "github": "https://github.com/nujoka1",
+    "linkedin": "https://www.linkedin.com/in/nujoka/",
     "image_url": "assets/images/joseph-nuhu-kalba.png"
   },
   "education": [
     {"institution": "Ahmadu Bello University, Zaria", "qualification": "Computer Engineering and Artificial Intelligence Engineering", "period": "2021–2026"},
-    {"institution": "Ahmadu Bello University, Zaria", "qualification": "Diploma in Computer Engineering with Credit", "date": "1 March 2019"},
-    {"institution": "West African Examinations Council", "qualification": "WASSCE for School Candidates", "year": "2016"}
+    {"institution": "Ahmadu Bello University, Zaria", "qualification": "Computer Engineering", "period": "2016–2018"},
+    {"institution": "Command Secondary School Kaduna (CSSKD)", "qualification": "Secondary education", "period": "2010–2016"},
+    {"institution": "E.Y.N", "qualification": "Primary education", "period": "2002–2010"}
   ],
   "certifications": [
     {"title": "HCIA-Cloud Computing V5.5 Course", "provider": "Huawei ICT Academy", "date": "16 January 2026"},
