@@ -4,11 +4,30 @@
     "location": "Zaria, Kaduna State, Nigeria",
     "institution": "Ahmadu Bello University, Zaria",
     "fields": ["Computer Engineering", "Artificial Intelligence Engineering"],
-    "previous_education": "Nigerian Defence Academy",
     "email": "njkalba@engineering.abu.edu.ng",
     "github": "https://github.com/nujoka1",
     "image_url": "assets/images/joseph-nuhu-kalba.png"
   },
+  "education": [
+    {"institution": "Ahmadu Bello University, Zaria", "qualification": "Computer Engineering and Artificial Intelligence Engineering", "period": "2021–2026"},
+    {"institution": "Ahmadu Bello University, Zaria", "qualification": "Diploma in Computer Engineering with Credit", "date": "1 March 2019"},
+    {"institution": "West African Examinations Council", "qualification": "WASSCE for School Candidates", "year": "2016"}
+  ],
+  "certifications": [
+    {"title": "HCIA-Cloud Computing V5.5 Course", "provider": "Huawei ICT Academy", "date": "16 January 2026"},
+    {"title": "HCIA-AI V4.0 Course (Colombia Training Program)", "provider": "Huawei ICT Academy", "date": "26 December 2025"},
+    {"title": "HCIA-AI V4.0 Course", "provider": "Huawei ICT Academy", "date": "15 August 2025"},
+    {"title": "Image Recognition Basics for Beginners", "provider": "Simplilearn SkillUp", "date": "24 April 2025", "certificate_code": "8019933"},
+    {"title": "Create Image Captioning Models", "provider": "Google Cloud / Simplilearn SkillUp", "date": "8 February 2025", "certificate_code": "7879341"},
+    {"title": "Introduction to Artificial Intelligence", "provider": "TAFE NSW Institute of Applied Technology Digital", "date": "9 March 2025", "certificate_id": "TWkMQG5GjH"},
+    {"title": "Introduction to Artificial Intelligence", "provider": "Simplilearn SkillUp", "date": "29 January 2025", "certificate_code": "7827221"},
+    {"title": "Machine Learning", "provider": "Simplilearn SkillUp", "date": "27 January 2025", "certificate_code": "7822581"},
+    {"title": "Introduction to Machine Learning with R", "provider": "Simplilearn SkillUp", "date": "15 February 2025", "certificate_code": "7907688"},
+    {"title": "ChatGPT Advanced Course", "provider": "Simplilearn SkillUp", "date": "9 March 2025", "certificate_code": "8016446"},
+    {"title": "Generative AI for Beginners", "provider": "Simplilearn SkillUp", "date": "4 March 2025", "certificate_code": "7983247"},
+    {"title": "Artificial Intelligence Beginners Guide: What is AI?", "provider": "Simplilearn SkillUp", "date": "2 March 2025", "certificate_code": "7982364"},
+    {"title": "Introduction to Neural Network", "provider": "Simplilearn SkillUp", "date": "9 March 2025", "certificate_code": "8019447"}
+  ],
   "agricultural_experience": {
     "role": "Commercial agricultural farmer",
     "responsibilities": ["Operations", "Budgeting", "Planning", "Resource management"],
