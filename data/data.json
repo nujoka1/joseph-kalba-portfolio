@@ -7,7 +7,7 @@
     "previous_education": "Nigerian Defence Academy",
     "email": "njkalba@engineering.abu.edu.ng",
     "github": "https://github.com/nujoka1",
-    "image_url": null
+    "image_url": "assets/images/joseph-nuhu-kalba.png"
   },
   "agricultural_experience": {
     "role": "Commercial agricultural farmer",
@@ -24,12 +24,15 @@
     {"category": "Low-resource NLP", "technologies": ["Higi", "Hausa tokenization", "Translation"]},
     {"category": "Cloud and DevOps", "technologies": ["AWS IAM", "EC2", "S3", "VPC"]}
   ],
-  "project_categories": ["Edge AI", "Assistive systems", "Security research", "Low-resource NLP", "IoT"],
+  "project_categories": ["Edge AI", "Assistive systems", "Healthcare AI", "IoT", "Low-resource NLP"],
   "projects": [
-    {"id": 1, "title": "AI-Driven Road Surface Health Monitoring System", "category": "Edge AI", "description": "Engineering prototype for road-surface observation using edge inference and a cockpit interface.", "technologies": ["YOLOv8", "PyQt5"], "image_url": null},
-    {"id": 2, "title": "Automated Medication Dispensing System", "category": "Assistive systems", "description": "Raspberry Pi-based prototype combining identification, pill recognition, load sensing and a mobile interface.", "technologies": ["Raspberry Pi 4B", "RFID", "QR", "Load cell", "Flutter"], "image_url": null},
-    {"id": 3, "title": "Edge-Deployed Autonomous Security Turret", "category": "Security research", "description": "High-level edge-security research prototype using local vision and storage components.", "technologies": ["Raspberry Pi", "MediaPipe BlazeFace", "dlib ResNet", "SQLite"], "image_url": null},
-    {"id": 4, "title": "HausaTaxBot", "category": "Low-resource NLP", "description": "Streamlit application for Personal Income Tax questions, translation and Hausa-language accessibility.", "technologies": ["Streamlit", "Hausa NLP"], "image_url": null},
-    {"id": 5, "title": "IoT Smart Energy Meters and Weather Station", "category": "IoT", "description": "Connected monitoring prototypes using embedded sensing and cellular or cloud communication.", "technologies": ["ESP32", "BMP280", "ThingSpeak", "GPRS"], "image_url": null}
+    {"id": 1, "title": "AI-Driven Road Surface Health Monitoring System", "category": "Edge AI", "description": "An edge-AI platform for detecting and recording road defects and hazards through computer vision, location-aware reporting and a monitoring workflow.", "technologies": ["YOLOv8", "Jetson Orin Nano", "PyQt5", "GPS", "IMU", "FastAPI", "Supabase", "MQTT"], "image_url": null},
+    {"id": 2, "title": "Automated Medication Dispensing System", "category": "Assistive systems", "description": "A healthcare system supporting scheduled dispensing, pill verification and patient monitoring through connected hardware and a mobile application.", "technologies": ["Raspberry Pi 4B", "RFID/QR", "Load cell", "Flutter", "Embedded control"], "image_url": null},
+    {"id": 3, "title": "Pulse AI Stethoscope", "category": "Healthcare AI", "description": "An intelligent digital stethoscope concept for guided heart-sound recording, signal processing, machine learning and clinician-facing software.", "technologies": ["Raspberry Pi", "Python", "Deep learning", "Digital audio"], "image_url": null},
+    {"id": 4, "title": "Smart Waste Sorting System", "category": "IoT", "description": "An IoT-enabled waste classification and monitoring system that identifies categories, tracks bin activity and presents operational information.", "technologies": ["ESP32", "Sensors", "Firebase", "React", "Capacitor"], "image_url": null},
+    {"id": 5, "title": "Water Quality Monitoring System", "category": "IoT", "description": "A connected monitoring system for pH, turbidity, total dissolved solids, temperature and water flow, presented through a responsive dashboard.", "technologies": ["ESP32", "pH/turbidity/TDS sensors", "Supabase", "Web dashboard"], "image_url": null},
+    {"id": 6, "title": "IoT Borehole Control System", "category": "IoT", "description": "An automated borehole and tank-management system with offline control, safety lockouts, telemetry and remote command support.", "technologies": ["ESP32", "Supabase", "Captive portal Wi-Fi", "Sensors"], "image_url": null},
+    {"id": 7, "title": "HausaTaxBot", "category": "Low-resource NLP", "description": "A low-resource language application improving access to Personal Income Tax information through question answering and Hausa-language translation.", "technologies": ["Streamlit", "Python", "NLP", "Hausa translation"], "image_url": null},
+    {"id": 8, "title": "IoT Smart Energy Meter and Weather Station", "category": "IoT", "description": "Connected monitoring concepts for collecting energy and environmental data and transmitting readings for remote viewing.", "technologies": ["ESP32/Arduino", "BMP280", "ThingSpeak", "GPRS", "SIM800L"], "image_url": null}
   ]
 }

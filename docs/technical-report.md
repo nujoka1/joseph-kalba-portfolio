@@ -2,7 +2,11 @@
 
 ## 1. Project overview
 
-This project is an eight-page personal portfolio for Joseph Nuhu Kalba, presenting him as a future Computer Engineer working across intelligent software and physical systems. It implements only Question 1 of the COEN 554 examination. The deliverable uses standards-based HTML5, one external CSS3 file, JSON and JSON-LD without executable JavaScript, a CMS or a frontend framework.
+This project is an eight-page personal portfolio for Joseph Nuhu Kalba, presenting him as a final-year Computer Engineering student working across intelligent software and physical systems. It implements only Question 1 of the COEN 554 examination. The deliverable uses standards-based HTML5, one external CSS3 file, JSON and JSON-LD without executable JavaScript, a CMS or a frontend framework. The content guide defines eight engineering projects, all represented in `data/data.json` and the Projects page.
+
+### Submission scope
+
+The site communicates a single professional identity across eight linked pages: Home, About, Education, Technical Skills, Projects, Hobbies and Interests, Curriculum Vitae, and Contact. The content is intentionally factual and conservative. Unknown dates, qualifications, phone numbers and social profiles remain marked for confirmation rather than being fabricated.
 
 ## 2. Design rationale
 
@@ -11,6 +15,24 @@ The primary reference, Mauricio Juba's portfolio, demonstrates oversized editori
 ## 3. Information architecture
 
 The site separates its required subjects into Home, About, Education, Skills, Projects, Hobbies and Interests, CV and Contact pages. A consistent header, horizontally usable navigation and footer connect all eight pages. Home provides the narrative overview; deeper pages separate evidence and reduce cognitive load. Relative links support direct local use and GitHub Pages subdirectory hosting.
+
+### File inventory
+
+```text
+index.html                 Home and selected project highlights
+about.html                 Personal background and working principles
+education.html             Academic path and areas of learning
+skills.html                Grouped technical capabilities
+projects.html              Eight engineering project entries
+hobbies.html               Hobbies and interests
+cv.html                    Curriculum vitae presentation
+contact.html               Contact information and static contact interface
+assets/css/style.css       Shared responsive stylesheet
+assets/images/             Favicon and approved portrait
+data/data.json             Structured content model
+docs/technical-report.md   This technical report
+submission/README.md       Submission manifest and packaging checklist
+```
 
 ## 4. Semantic HTML
 
@@ -22,7 +44,7 @@ Each document declares HTML5, English language, UTF-8 and a responsive viewport.
 
 ## 6. JSON data structure
 
-`data/data.json` models a `profile` object, agricultural experience, skill groups, project categories and five project objects. Each project has an ID, title, category, description, technologies and `image_url`. Missing real images or dates use JSON `null`, clearly distinguishing unknown data from empty text. The file is valid JSON and can support a future standards-compliant backend or content workflow, although this static examination implementation does not execute JavaScript to load it.
+`data/data.json` models a `profile` object, agricultural experience, skill groups, project categories and eight project objects. Each project has an ID, title, category, description, technologies and `image_url`. Missing project images or dates use JSON `null`, clearly distinguishing unknown data from empty text. The file is valid JSON and can support a future standards-compliant backend or content workflow, although this static examination implementation does not execute JavaScript to load it.
 
 ## 7. JSON-LD
 
@@ -45,11 +67,34 @@ Correct MIME types prevent browsers from guessing how content should be interpre
 
 Validation covers the exact count of eight root HTML pages, relative internal links, local asset references, JSON syntax, every JSON-LD block, required semantic elements, unique titles, viewport metadata and active navigation state. Repository searches check for prohibited JavaScript/TypeScript files, framework scaffolding, inline styles and executable scripts. Layout CSS includes mobile, tablet and desktop states plus keyboard focus and reduced-motion support. The site is also served through a simple HTTP server and requested as a browser would request static files.
 
-## 11. Deployment procedure
+The final local checks completed for this submission were:
+
+```bash
+find . -maxdepth 1 -name '*.html' | wc -l
+jq empty data/data.json
+python3 -m http.server 8765
+curl --fail -I http://127.0.0.1:8765/index.html
+curl --fail -I http://127.0.0.1:8765/projects.html
+curl --fail -I http://127.0.0.1:8765/assets/images/joseph-nuhu-kalba.png
+```
+
+The expected results are eight HTML pages, successful JSON parsing, and `200 OK` responses for the two updated pages and the portrait asset. Editor diagnostics also report no errors in the touched HTML, CSS or JSON files.
+
+## 11. Accessibility, security and maintainability
+
+The pages use landmark elements, a skip link, meaningful heading order, descriptive page metadata and visible keyboard focus states. Navigation marks the current page with `aria-current`, while the portrait has alternative text. The stylesheet includes a reduced-motion preference and responsive layouts that avoid horizontal page overflow.
+
+The static architecture has no server-side credentials, database connection, login form or executable client script. Contact is provided through a `mailto:` link; the page does not falsely claim that its static form sends messages. External links are limited to the candidate's GitHub profile and email address. Repository access and GitHub Pages deployment permissions remain operational responsibilities.
+
+## 12. Deployment procedure
 
 The repository includes `.github/workflows/deploy-pages.yml`. On a push to `main`, GitHub Actions checks out the source, configures Pages, uploads the repository as a static artifact and deploys it. The repository Pages source must be set to GitHub Actions. No compilation, `npm install` or development server is required.
 
-## 12. CMS evaluation (436 words)
+### Live deployment
+
+The deployed portfolio is available at [https://nujoka1.github.io/joseph-kalba-portfolio/](https://nujoka1.github.io/joseph-kalba-portfolio/). A direct HTTP check returned `200 OK` for the public homepage on 2 September 2026. The deployment is served over HTTPS by GitHub Pages.
+
+## 13. CMS evaluation (436 words)
 
 A manual HTML/CSS/JSON architecture is preferable for this portfolio because the content set is small, the page structure is stable and the author is technically capable of editing source files. Static files are easy to inspect, version and deploy. They can be served directly by a content delivery network without database queries, server-side rendering or plugin execution. This usually produces fast initial responses and a small hosting footprint. The limited runtime surface also reduces security exposure: there is no administrative login, database or plugin ecosystem to patch. Security still matters—repository access, deployment permissions and third-party links must be protected—but the number of moving parts is low.
 
@@ -59,6 +104,7 @@ Maintenance differs in both models. In the static site, a content update require
 
 Team size and update frequency should drive migration, not fashion. For one technical owner, eight pages and occasional updates, static architecture is simpler, faster and easier to verify. Migration becomes defensible when there are multiple non-technical contributors, daily or weekly publishing, hundreds of entries, scheduled content, editorial approvals, localisation, advanced search, or a need to manage media at scale. Even then, the team should compare a traditional WordPress installation with a controlled headless approach and assess hosting, training, backups, accessibility and security responsibilities. For the present portfolio, WordPress would add operational cost without improving the assessed outcome.
 
-## 13. Conclusion
+## 14. Conclusion
 
-The portfolio meets the Question 1 content and technology scope with a maintainable static architecture and an original responsive design. Remaining factual placeholders are limited to the verified portrait, exact qualifications, education dates and detailed employment dates or titles. Those facts should be confirmed before inclusion rather than inferred.
+The portfolio meets the Question 1 content and technology scope with a maintainable static architecture and an original responsive design. Remaining factual placeholders are limited to exact qualification details and detailed employment dates or titles. Those facts should be confirmed before inclusion rather than inferred.
+

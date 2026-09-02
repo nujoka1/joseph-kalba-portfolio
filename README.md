@@ -1,6 +1,6 @@
 # Joseph Nuhu Kalba — Computer Engineering Portfolio
 
-A responsive eight-page personal portfolio completed for **COEN 554 Web Programming, Question 1 (Individual Work)** at Ahmadu Bello University, Zaria.
+A responsive eight-page personal portfolio completed for **COEN 554 Web Programming, Question 1 (Individual Work)** at Ahmadu Bello University, Zaria. The site presents eight engineering projects drawn from the supplied portfolio content guide.
 
 The visual direction translates the editorial hierarchy, numbered sections, restrained palette and evidence-led presentation observed on [Mauricio Juba's portfolio](https://mauriciojuba.com/) into an original engineering identity. No source code, text, branding or proprietary assets were copied.
 
@@ -28,6 +28,7 @@ The visual direction translates the editorial hierarchy, numbered sections, rest
 ├── assets/images/
 ├── data/data.json
 ├── docs/technical-report.md
+├── submission/README.md
 └── .github/workflows/deploy-pages.yml
 ```
 
@@ -49,7 +50,11 @@ Expected URL: `https://nujoka1.github.io/joseph-kalba-portfolio/`
 
 ## Portrait
 
-A verified portrait was not available. If desired, place the real approved image at `assets/images/joseph-nuhu-kalba.png`; no substitute face has been generated.
+The approved portrait is included at `assets/images/joseph-nuhu-kalba.png` and is displayed on the homepage.
+
+## Submission package
+
+The [submission README](submission/README.md) identifies the assessed deliverables, verification checklist and the command used to create the final ZIP archive. Keep the repository root as the website root when compressing the package so relative links continue to work.
 
 ## Report
 
