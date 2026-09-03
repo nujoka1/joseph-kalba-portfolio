@@ -12,7 +12,7 @@
   },
   "education": [
     {"institution": "Ahmadu Bello University, Zaria", "qualification": "Computer Engineering and Artificial Intelligence Engineering", "period": "2021–2026"},
-    {"institution": "Ahmadu Bello University, Zaria", "qualification": "Computer Engineering", "period": "2016–2018"},
+    {"institution": "Iya Abubakar Institute of ICT, Ahmadu Bello University", "qualification": "Diploma in Computer Engineering", "period": "2016–2018", "url": "https://institutes.abu.edu.ng/iaiict/"},
     {"institution": "Command Secondary School Kaduna (CSSKD)", "qualification": "Secondary education", "period": "2010–2016"},
     {"institution": "E.Y.N", "qualification": "Primary education", "period": "2002–2010"}
   ],
