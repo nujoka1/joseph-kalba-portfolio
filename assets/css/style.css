@@ -132,15 +132,6 @@ main {
   color: var(--muted);
 }
 
-.eyebrow::before {
-  display: inline-block;
-  width: 1.5rem;
-  height: 0.45rem;
-  margin-right: 0.6rem;
-  background: var(--accent);
-  content: "";
-}
-
 h1,
 h2,
 h3 {
