@@ -59,7 +59,7 @@ When a visitor enters the site URL, the browser resolves the host, establishes a
 - `text/html` tells the browser to parse HTML documents.
 - `text/css` identifies the external stylesheet.
 - `application/json` identifies `data/data.json` and JSON-LD content.
-- `image/png` identifies the expected portrait format when a verified portrait is supplied.
+- `image/png` identifies the portfolio portrait image.
 
 Correct MIME types prevent browsers from guessing how content should be interpreted and improve standards compliance and security.
 
@@ -106,5 +106,5 @@ Team size and update frequency should drive migration, not fashion. For one tech
 
 ## 14. Conclusion
 
-The portfolio meets the Question 1 content and technology scope with a maintainable static architecture and an original responsive design. Remaining factual placeholders are limited to exact qualification details and detailed employment dates or titles. Those facts should be confirmed before inclusion rather than inferred.
+The portfolio meets the Question 1 content and technology scope with a maintainable static architecture and an original responsive design. It presents the available education, professional competencies, projects and contact information in a submission-ready format.
 
